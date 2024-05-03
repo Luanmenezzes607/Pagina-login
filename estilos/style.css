@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html{
+    background-image: linear-gradient(to top, rgb(14, 14, 113), rgb(37, 37, 138), rgb(53, 53, 232));
+
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+section#login{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    overflow: hidden;
+    background-color: aliceblue;
+    height: 500px;
+    width: 250px;
+    border-radius: 20px;
+    transition: width .3s, height .3s;
+}
+
+section#login > div#imagem{
+    display: block;
+    height: 40%;
+    background: blue url(../imagens/img.fundo.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+#login h1{
+    text-align: center;
+    padding: 10px;
+}
+
+#login p {
+    text-align: center;
+    font-size: 0.8em;
+    padding: 0px 10px 0px 10px;
+}
+
