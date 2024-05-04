@@ -54,3 +54,70 @@ section#login > div#imagem{
     padding: 0px 10px 0px 10px;
 }
 
+.botao{
+    display: block;
+    background-color: #1e1e77;
+    color: aliceblue;
+    width: 90%;
+    padding: 10px;
+    margin: auto;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botao:hover{
+    background-color: rgb(46, 46, 250);
+}
+
+form a{
+    display: block;
+    width: 90%;
+    margin: auto;
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    border: solid 1px black;
+}
+
+form a:hover{
+    color: aliceblue;
+    background-color: cornflowerblue;
+}
+
+.form{
+    background-color: #f5c60e;
+    padding:5px;
+    border-radius: 5px;
+    margin: 5px auto;
+    width: 90%;
+    border: 1px solid black;
+    
+
+}
+
+.form label{
+    display: none;
+}
+
+.form > span{
+    background-color: rgb(35, 94, 147);
+    width: 40px;
+    padding: 5px;
+    font-size: ;
+}
+
+.form > input{
+    background-color: #1e1e77;
+    font-size: 1em;
+    width:calc(100% - 44px);
+    height: 100%;
+    transform: translateY(-5px);
+    border: 0px;
+    border-radius: 4px;
+    padding: 4px;
+
+
+}
+
